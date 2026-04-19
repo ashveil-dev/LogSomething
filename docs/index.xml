@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <skin>
   <information>
-    <name>hELLO</name>
-    <version>4.10.5</version>
+    <name>LogSomething</name>
+    <version>1.0.0</version>
     <description>
-      <![CDATA[ⓒ 2020-2024. Sangwoo Jeong.]]>
+      <![CDATA[ⓒ 2026-2030. Donggun Jang.]]>
     </description>
   </information>
   <author>
-    <name>SangWoo Jeong</name>
-    <homepage>http://pronist.tistory.com</homepage>
-    <email>pronist@naver.com</email>
+    <name>Donggun Jang</name>
+    <homepage>http://ashveil.tistory.com</homepage>
+    <email>ashveil-dev@gmail.com</email>
   </author>
   <liststyle>
     <item>

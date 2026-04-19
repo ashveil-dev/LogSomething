@@ -3,7 +3,8 @@ doctype html
 html#hELLO(
   x-data='app'
   lang='ko'
-  class='scroll-smooth')
+  class='scroll-smooth'
+  data-theme='dark')
   head
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width')
@@ -52,6 +53,8 @@ html#hELLO(
         hljsDark: '[##_var_hljs-dark_##]',
         headerStyle: '[##_var_header-style_##]'
       }
+
+      $data.dark = darkMode.on
 
   body(
     id='[##_body_id_##]'
