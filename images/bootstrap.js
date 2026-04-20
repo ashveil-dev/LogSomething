@@ -42,8 +42,8 @@ class DarkMode {
    * @return {boolean}
    */
   get preferred () {
-    const os = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-    const theme = localStorage.getItem(this.key) || os
+    // const os = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+    const theme = localStorage.getItem(this.key) || "dark"
 
     return theme === 'dark'
   }
