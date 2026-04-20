@@ -12,6 +12,7 @@
  * after import assets it will be contained in app.css
  */
 
+
 /** @see https://alpinejs.dev */
 import Alpine from 'alpinejs'
 

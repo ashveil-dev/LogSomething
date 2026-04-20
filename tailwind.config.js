@@ -57,7 +57,8 @@ module.exports = {
         mono: [
           '"Source Code Pro"',
           ...defaultTheme.fontFamily.mono
-        ]
+        ],
+        maplestory : ['Maplestory', 'sans-serif'],
       }
     }
   }

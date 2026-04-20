@@ -3,7 +3,7 @@ doctype html
 html#hELLO(
   x-data='app'
   lang='ko'
-  class='scroll-smooth'
+  class='scroll-smooth font-maplestory'
   data-theme='dark')
   head
     meta(charset='utf-8')
@@ -34,6 +34,7 @@ html#hELLO(
 
     style
       include:postcss @/css/app.css
+      include:postcss @/css/font.css
       include:postcss @/css/shortcutLayer.css
 
     script(fixed).
@@ -53,8 +54,6 @@ html#hELLO(
         hljsDark: '[##_var_hljs-dark_##]',
         headerStyle: '[##_var_header-style_##]'
       }
-
-      $data.dark = darkMode.on
 
   body(
     id='[##_body_id_##]'

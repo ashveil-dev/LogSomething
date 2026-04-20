@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Maplestory';
+  src: url('images/MaplestoryLight.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maplestory';
+  src: url('images/MaplestoryBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
