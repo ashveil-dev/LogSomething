@@ -99,7 +99,8 @@ style(once='article')
 
           &.imageblock.alignCenter,
           &.imagegridblock {
-            @apply max-lg:w-full !important;
+            @apply max-lg:!w-full max-lg:!max-w-full max-lg:border max-lg:border-h-300;
+            @apply dark:max-lg:border-h-500;
           }
 
           &[data-ke-type=opengraph] {
