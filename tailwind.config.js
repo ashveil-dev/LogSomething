@@ -26,7 +26,9 @@ module.exports = {
         800: '#1e1f21',
         900: '#000000',
         blue: '#5db0d7',
-        orange: '#ff5544'
+        orange: '#ff5544',
+        blushPink : "#ff7394",
+        mysticIndigo : "#766cff"
       }
     },
     extend: {
@@ -59,6 +61,7 @@ module.exports = {
           ...defaultTheme.fontFamily.mono
         ],
         maplestory : ['Maplestory', 'sans-serif'],
+        gmarketSans : ["gmarket", 'sans-serif']
       }
     }
   }
