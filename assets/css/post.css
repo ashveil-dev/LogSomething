@@ -1,6 +1,7 @@
 #article .contents_style h3 {
     width : 100%;
     position : relative;
+    margin-bottom : 3rem !important;
 }
 
 #article .contents_style h3::before {
@@ -23,4 +24,8 @@
 
 #article .contents_style h4 a {
     font-size : 1.4em !important;
+}
+
+#article .contents_style p {
+    font-family : "GmarketSans"
 }

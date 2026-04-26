@@ -11,3 +11,24 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('images/GmarketSansMedium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('images/GmarketSansLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('images/GmarketSansBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
