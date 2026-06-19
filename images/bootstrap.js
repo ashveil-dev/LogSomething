@@ -43,7 +43,7 @@ class DarkMode {
    */
   get preferred () {
     // const os = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-    const theme = localStorage.getItem(this.key) || "dark"
+    const theme = localStorage.getItem(this.key) || "light"
 
     return theme === 'dark'
   }
